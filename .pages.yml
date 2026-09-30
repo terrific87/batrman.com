@@ -1,0 +1,200 @@
+media:
+  input: assets/uploads
+  output: /assets/uploads
+  categories:
+  - image
+content:
+- name: journal
+  label: Journal
+  type: file
+  path: content/journal.json
+  format: json
+  list: true
+  fields:
+  - name: id
+    label: Unique address (e.g. a-weekend-in-porto)
+    type: string
+    required: true
+  - name: title
+    label: Title
+    type: string
+    required: true
+  - name: published
+    label: Show on website
+    type: boolean
+    default: false
+  - name: date
+    label: Date
+    type: date
+  - name: category
+    label: Topic
+    type: select
+    options:
+      values:
+      - Payments
+      - Technology
+      - Business
+      - Life
+      - Ideas
+  - name: excerpt
+    label: Short introduction
+    type: text
+  - name: image
+    label: Cover photo
+    type: image
+  - name: alt
+    label: Photo description
+    type: string
+  - name: body
+    label: Post content
+    type: rich-text
+    options:
+      format: html
+- name: travel
+  label: Travel
+  type: file
+  path: content/travel.json
+  format: json
+  list: true
+  fields:
+  - name: id
+    label: Unique address (e.g. a-weekend-in-porto)
+    type: string
+    required: true
+  - name: title
+    label: Title
+    type: string
+    required: true
+  - name: published
+    label: Show on website
+    type: boolean
+    default: false
+  - name: date
+    label: Date
+    type: date
+  - name: excerpt
+    label: Short introduction
+    type: text
+  - name: image
+    label: Cover photo
+    type: image
+  - name: alt
+    label: Photo description
+    type: string
+  - name: body
+    label: Post content
+    type: rich-text
+    options:
+      format: html
+- name: work
+  label: Published Work
+  type: file
+  path: content/work.json
+  format: json
+  list: true
+  fields:
+  - name: id
+    label: Unique address (e.g. a-weekend-in-porto)
+    type: string
+    required: true
+  - name: title
+    label: Title
+    type: string
+    required: true
+  - name: published
+    label: Show on website
+    type: boolean
+    default: false
+  - name: date
+    label: Date
+    type: date
+  - name: excerpt
+    label: Short introduction
+    type: text
+  - name: image
+    label: Cover photo
+    type: image
+  - name: alt
+    label: Photo description
+    type: string
+  - name: body
+    label: Post content
+    type: rich-text
+    options:
+      format: html
+  - name: category
+    label: Type
+    type: select
+    required: true
+    options:
+      values:
+      - Writing
+      - Podcast
+      - Patent
+      - Related reading
+  - name: label
+    label: Publication / date / patent number
+    type: string
+  - name: credit
+    label: Credits
+    type: string
+  - name: episode
+    label: Podcast episode number
+    type: string
+  - name: url
+    label: Article, podcast or patent link
+    type: string
+- name: shop
+  label: Shop
+  type: file
+  path: content/shop.json
+  format: json
+  list: true
+  fields:
+  - name: id
+    label: Unique address (e.g. a-weekend-in-porto)
+    type: string
+    required: true
+  - name: title
+    label: Title
+    type: string
+    required: true
+  - name: published
+    label: Show on website
+    type: boolean
+    default: false
+  - name: date
+    label: Date
+    type: date
+  - name: excerpt
+    label: Short introduction
+    type: text
+  - name: image
+    label: Cover photo
+    type: image
+  - name: alt
+    label: Photo description
+    type: string
+  - name: body
+    label: Post content
+    type: rich-text
+    options:
+      format: html
+  - name: status
+    label: Availability
+    type: select
+    default: Concept
+    options:
+      values:
+      - Concept
+      - Available
+      - Sold out
+  - name: quote
+    label: Design text
+    type: text
+  - name: price
+    label: Price including currency
+    type: string
+  - name: url
+    label: Checkout link
+    type: string

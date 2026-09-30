@@ -1,0 +1,26 @@
+[
+  {
+    "id": "weekend-tee",
+    "title": "Do Not Honour Tee",
+    "published": true,
+    "status": "Concept",
+    "quote": "DO NOT\nHONOUR\nMY WEEKEND.",
+    "excerpt": "A payment decline code, repurposed for Friday evening."
+  },
+  {
+    "id": "frictionless-tee",
+    "title": "Frictionless-ish Tee",
+    "published": true,
+    "status": "Concept",
+    "quote": "FRICTIONLESS\nISH.",
+    "excerpt": "For everyone who has ever debugged an authentication flow."
+  },
+  {
+    "id": "authenticate-cap",
+    "title": "Authenticate This Cap",
+    "published": true,
+    "status": "Concept",
+    "quote": "AUTHENTICATE\nTHIS.",
+    "excerpt": "Minimal cap. Maximum payments-nerd energy."
+  }
+]

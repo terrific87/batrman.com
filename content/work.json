@@ -1,0 +1,76 @@
+[
+  {
+    "id": "work-1",
+    "title": "The conversion paradox: 3DS trends in regulated markets",
+    "category": "Writing",
+    "published": true,
+    "excerpt": "Research into how authentication and conversion behave across regulated markets, and why the quality of a flow matters.",
+    "credit": "Co-written with Cip Blujdea",
+    "label": "STRIPE BLOG · AUGUST 2025",
+    "url": "https://stripe.com/blog/3ds-trends-in-regulated-markets",
+    "episode": ""
+  },
+  {
+    "id": "work-2",
+    "title": "Surprising findings from our analysis of 3DS transactions in the US",
+    "category": "Writing",
+    "published": true,
+    "excerpt": "What US transaction data reveals about authentication requests, issuer decisions and payment performance.",
+    "credit": "Co-written with Sam Phillips",
+    "label": "STRIPE BLOG · AUGUST 2024",
+    "url": "https://stripe.com/blog/surprising-findings-from-our-analysis-of-3ds-transactions-in-the-us",
+    "episode": ""
+  },
+  {
+    "id": "work-3",
+    "title": "Strong Customer Authentication",
+    "category": "Writing",
+    "published": true,
+    "excerpt": "A practical introduction to SCA requirements, exemptions and how authentication works in European payments.",
+    "credit": "Co-written with Gabriela Dasilva",
+    "label": "STRIPE GUIDE",
+    "url": "https://stripe.com/ie/guides/strong-customer-authentication",
+    "episode": ""
+  },
+  {
+    "id": "work-4",
+    "title": "Modern Authentication and the Impact on Payments Cost and Performance",
+    "category": "Podcast",
+    "published": true,
+    "excerpt": "With Dewald Nolte of Entersekt and host Chris Uriarte, discussing authentication, tokenization and payment performance.",
+    "credit": "",
+    "label": "GLENBROOK · APRIL 2026",
+    "url": "https://glenbrook.com/payments_on_fire/episode-292-modern-authentication-and-the-impact-on-payments-cost-and-performance-stripe-and-entersekt/",
+    "episode": "292"
+  },
+  {
+    "id": "work-5",
+    "title": "Two Decades of 3-D Secure: Can Strong Customer Authentication Succeed in the US and Unregulated Markets?",
+    "category": "Podcast",
+    "published": true,
+    "excerpt": "A discussion with Dewald Nolte, Bryan Derman and Chris Uriarte on 3DS, fraud prevention and the differences between markets.",
+    "credit": "",
+    "label": "GLENBROOK · OCTOBER 2024",
+    "url": "https://glenbrook.com/payments_on_fire/episode-249-3-d-secure-strong-customer-authentication-stripe-entersekt/",
+    "episode": "249"
+  },
+  {
+    "id": "biometric-patent",
+    "title": "Systems and methods for preventing biometric infringement",
+    "category": "Patent",
+    "published": true,
+    "excerpt": "A method for validating biometric data during enrolment, helping ensure a stored biometric template corresponds to a single person’s biometric feature.",
+    "label": "US 12,190,642 B2 · Granted 7 January 2025",
+    "credit": "Assignee: Mastercard International Incorporated. Co-inventors: Kaushal Naveen Shetty, Sachin Kumar Singh, Amandeep Batra and Venkata Satya Sivajee Pinnamaneni.",
+    "url": "https://patents.google.com/patent/US12190642B2/en",
+    "body": "<p>Original application: <a href=\"https://patents.google.com/patent/US20240257560A1/en\">US 2024/0257560 A1</a></p>"
+  },
+  {
+    "id": "sca-recurring",
+    "title": "SCA best practices for recurring revenue businesses",
+    "category": "Related reading",
+    "published": true,
+    "label": "RELATED STRIPE READING",
+    "url": "https://stripe.com/ie/guides/sca-best-practices-for-recurring-revenue"
+  }
+]
