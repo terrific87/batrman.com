@@ -88,3 +88,7 @@
 
 /* Content editor publishing */
 .cms-cover{width:100%;height:240px;object-fit:cover;border-radius:16px;margin-bottom:18px}.cms-article{max-width:850px;margin:60px auto;min-height:55vh}.cms-article h1{font:clamp(2.3rem,5vw,4rem)/1.1 Georgia,serif;margin:28px 0}.cms-body{font-size:1.1rem;line-height:1.8;overflow-wrap:anywhere}.cms-body img{max-width:100%;height:auto;border-radius:14px}.cms-body iframe{max-width:100%}.cms-body h2,.cms-body h3{margin-top:2em}.cms-body table{display:block;overflow:auto}.cms-body td,.cms-body th{padding:8px;border:1px solid #ddd}.product-art .quote{white-space:pre-line}.cms-travel-posts{margin-bottom:48px}
+
+.cricket-gallery .cricket-action-feature{grid-column:span 2}.cricket-gallery .cricket-action-feature img{aspect-ratio:3;object-position:center 55%}
+@media(max-width:900px){.cricket-gallery .cricket-action-feature{grid-column:1/-1}}
+@media(max-width:650px){.cricket-gallery .cricket-action-feature{grid-column:auto}.cricket-gallery .cricket-action-feature img{aspect-ratio:auto}}

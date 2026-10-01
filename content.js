@@ -41,7 +41,7 @@
       const id = new URLSearchParams(location.search).get('id');
       const item = entries.find(i => i.id === id);
       if (!item) { post.innerHTML = '<h1>Post not found</h1><p>This post is not currently available. Use the link above to browse the section.</p>'; return; }
-      document.title = `${item.title} — Amandeep Batra`;
+      document.title = `${item.title} — Aman Batra`;
       document.querySelector('meta[name="description"]')?.setAttribute('content',item.excerpt || item.title);
       post.innerHTML = `<p class="eyebrow">${escape(item.category || section)}${item.date ? ' · '+escape(String(item.date).slice(0,10)) : ''}</p><h1>${escape(item.title)}</h1><p class="lede">${escape(item.excerpt)}</p>${photo(item)}<div class="cms-body">${rich(item.body)}</div>`;
       return;

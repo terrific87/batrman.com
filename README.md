@@ -1,6 +1,6 @@
 # batraman.com
 
-Personal website for Amandeep Batra, prepared from V4.
+Personal website for Aman Batra, prepared from V4.
 
 ## Publish
 In this repository, open Settings → Pages. Select Deploy from a branch, then main and / (root), and Save.
