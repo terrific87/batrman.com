@@ -119,3 +119,22 @@
 .shop-page .cap-preview-card .shop-preview .cms-cover{width:300%;max-width:none;position:absolute;right:0;height:auto;top:50%;transform:translateY(-50%)}
 .shop-page .product-info .cms-body a{font-size:14px}
 @media(max-width:650px){.shop-page .shop-preview{height:280px}}
+
+/* A quieter personal homepage. */
+.home-minimal .hello-section{padding-top:65px;padding-bottom:70px}
+.home-minimal .hello-copy h1{font-size:clamp(40px,4.5vw,64px);line-height:1.12}
+.home-minimal .hello-lede{max-width:380px;margin-top:25px;line-height:1.7}
+.home-minimal .hello-actions{margin-top:28px}
+.home-minimal .section-heading{margin-bottom:28px}
+.home-minimal .notebook-card p{display:none}
+.home-minimal .notebook-card h3{font-size:22px;line-height:1.35}
+.home-minimal .notebook-card{padding:24px}
+.home-minimal .interest-card{min-height:190px;padding:28px}
+.home-minimal .interest-card h3{margin-top:0;font-size:32px}
+.home-minimal .interest-card p{font-size:16px}
+.home-minimal .about-casual{padding-top:65px;padding-bottom:65px}
+.home-minimal .about-casual h2{font-size:clamp(32px,4vw,48px)}
+.home-minimal .about-prose p{font-size:18px;max-width:460px}
+.home-minimal .cricket-community{padding-top:35px;padding-bottom:65px}
+.home-minimal .casual-contact{padding-top:45px;padding-bottom:50px}
+@media(max-width:650px){.home-minimal .hello-section{padding:35px 22px 50px}.home-minimal .interest-card{min-height:160px}.home-minimal .about-casual{padding:45px 22px}.home-minimal .hello-copy h1{font-size:43px}.home-minimal .notebook-card h3{font-size:20px}}
