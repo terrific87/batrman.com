@@ -1,26 +1,35 @@
 [
   {
     "id": "weekend-tee",
-    "title": "Do Not Honour Tee",
+    "title": "05 — Weekend Tee",
     "published": true,
     "status": "Concept",
-    "quote": "DO NOT\nHONOUR\nMY WEEKEND.",
-    "excerpt": "A payment decline code, repurposed for Friday evening."
+    "quote": "05 do_not_honor\nmy weekend.",
+    "image": "assets/shop/weekend-preview.jpg",
+    "alt": "Payments Nerd tee front, two-line 05 do_not_honor / my weekend. back design, and matching cap",
+    "excerpt": "Payments Nerd on the front. “05 do_not_honor” and “my weekend.” on the back. A little Friday-evening humour.",
+    "body": "<p><a href=\"assets/shop/weekend-preview.jpg\">View the design up close →</a></p>"
   },
   {
-    "id": "frictionless-tee",
-    "title": "Frictionless-ish Tee",
+    "id": "authentication-tee",
+    "title": "1A — Authentication Required Tee",
     "published": true,
     "status": "Concept",
-    "quote": "FRICTIONLESS\nISH.",
-    "excerpt": "For everyone who has ever debugged an authentication flow."
+    "quote": "1A\nAuthentication Required",
+    "image": "assets/shop/authentication-preview.jpg",
+    "alt": "Black tee with amber 1A and Authentication Required on the front and fingerprint artwork on the back",
+    "excerpt": "1A. Authentication Required. A fingerprint on the back, with an amber ridge for a little extra character.",
+    "body": "<p><a href=\"assets/shop/authentication-preview.jpg\">View front &amp; back →</a></p>"
   },
   {
-    "id": "authenticate-cap",
-    "title": "Authenticate This Cap",
+    "id": "payments-nerd-cap",
+    "title": "Payments Nerd Cap",
     "published": true,
     "status": "Concept",
-    "quote": "AUTHENTICATE\nTHIS.",
-    "excerpt": "Minimal cap. Maximum payments-nerd energy."
+    "quote": "PAYMENTS\nNERD.",
+    "image": "assets/shop/weekend-preview.jpg",
+    "alt": "Black Payments Nerd cap with cream lettering and amber detail",
+    "excerpt": "A black cap with Payments Nerd lettering, an amber dot and a small batraman detail.",
+    "body": "<p>The matching cap from the first collection.</p>"
   }
 ]

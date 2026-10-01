@@ -69,7 +69,7 @@
       document.querySelector('#patent').hidden=!entries.some(i=>i.category==='Patent');
     }
     if (section === 'shop') {
-      document.querySelector('.shop-grid').innerHTML=entries.map(i=>`<article class="product-card">${photo(i) || `<div class="product-art"><div class="quote">${escape(i.quote || i.title)}</div></div>`}<div class="product-info"><h3>${escape(i.title)}</h3><p>${escape(i.excerpt)}</p><div class="cms-body">${rich(i.body)}</div><div class="product-bottom"><span class="price">${escape(i.price || (i.status==='Concept'?'Coming soon':''))}</span><span class="coming">${escape(i.status)}</span></div>${i.status==='Available'?link(i.url,'Order'):''}</div></article>`).join('');
+      document.querySelector('.shop-grid').innerHTML=entries.map(i=>`<article class="product-card${i.id==='payments-nerd-cap'?' cap-preview-card':''}"><div class="shop-preview">${photo(i) || `<div class="product-art"><div class="quote">${escape(i.quote || i.title)}</div></div>`}</div><div class="product-info"><h3>${escape(i.title)}</h3><p>${escape(i.excerpt)}</p><div class="cms-body">${rich(i.body)}</div><div class="product-bottom"><span class="price">${escape(i.price || (i.status==='Concept'?'Coming soon':''))}</span><span class="coming">${escape(i.status)}</span></div>${i.status==='Available'?link(i.url,'Order'):''}</div></article>`).join('');
       if (entries.some(i=>i.status==='Available' && address(i.url))) {
         document.querySelector('.shop-note').textContent='Choose a product to see its ordering and delivery details.';
         document.querySelector('.page-hero .lede').textContent='Payment jokes, simple designs and things I’d enjoy wearing myself.';
