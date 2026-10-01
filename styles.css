@@ -92,3 +92,15 @@
 .cricket-gallery .cricket-action-feature{grid-column:span 2}.cricket-gallery .cricket-action-feature img{aspect-ratio:3;object-position:center 55%}
 @media(max-width:900px){.cricket-gallery .cricket-action-feature{grid-column:1/-1}}
 @media(max-width:650px){.cricket-gallery .cricket-action-feature{grid-column:auto}.cricket-gallery .cricket-action-feature img{aspect-ratio:auto}}
+
+.latest-notebook{padding:55px 5vw;background:#f1eee5;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.notebook-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;margin-top:30px}
+.notebook-card{display:flex;flex-direction:column;padding:28px;background:var(--paper);border:1px solid var(--line);border-radius:14px;color:var(--ink);text-decoration:none;transition:transform .2s,border-color .2s}
+.notebook-card:hover{transform:translateY(-4px);border-color:var(--accent)}.notebook-card:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
+.notebook-card .card-label{font-size:10px;letter-spacing:.12em;color:var(--accent);font-weight:700}
+.notebook-card h3{font:28px/1.2 Georgia,serif;margin:16px 0}.notebook-card p{font-size:15px;line-height:1.65;color:var(--muted);margin:0 0 22px}
+.notebook-card .notebook-action{margin-top:auto;color:var(--accent);font-size:13px;font-weight:600}
+.notebook-card img{width:100%;aspect-ratio:1.6;object-fit:cover;border-radius:8px;margin-bottom:18px}
+.hello-copy h1 .opening-tail{font-size:.65em;line-height:1.12;display:block;margin-top:14px}
+@media(max-width:900px){.notebook-grid{grid-template-columns:1fr 1fr}.notebook-card:last-child{grid-column:1/-1}}
+@media(max-width:650px){.latest-notebook{padding:40px 22px}.notebook-grid{grid-template-columns:1fr}.notebook-card:last-child{grid-column:auto}.notebook-card{padding:24px}}
