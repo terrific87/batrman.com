@@ -104,3 +104,11 @@
 .hello-copy h1 .opening-tail{font-size:.65em;line-height:1.12;display:block;margin-top:14px}
 @media(max-width:900px){.notebook-grid{grid-template-columns:1fr 1fr}.notebook-card:last-child{grid-column:1/-1}}
 @media(max-width:650px){.latest-notebook{padding:40px 22px}.notebook-grid{grid-template-columns:1fr}.notebook-card:last-child{grid-column:auto}.notebook-card{padding:24px}}
+
+/* Three snapshots in the homepage introduction. */
+.hello-photos{padding-bottom:150px}
+.hello-photos .stage-photo{width:58%;bottom:30px;z-index:2}
+.home-cricket-photo{position:absolute;right:-8px;bottom:0;width:58%;transform:rotate(6deg);z-index:3}
+.home-cricket-photo img{height:180px;object-position:60% center}
+@media(max-width:900px){.hello-photos{padding-bottom:140px}.hello-photos .stage-photo{width:60%}.home-cricket-photo{right:-4px;width:59%}.home-cricket-photo img{height:150px}}
+@media(max-width:650px){.hello-photos{padding-bottom:140px}.hello-photos .stage-photo{width:59%;bottom:35px}.home-cricket-photo{right:0;width:58%}.home-cricket-photo img{height:145px}}
