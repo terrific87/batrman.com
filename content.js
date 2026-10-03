@@ -54,9 +54,8 @@
         const note = document.querySelector('.publication-note'); if (note) note.hidden = true;
       } else {
         const grid = document.querySelector('.travel-grid');
-        const feed = document.createElement('section'); feed.className='cms-travel-posts';
-        feed.innerHTML=`<h2>From the travel journal.</h2><div class="post-grid">${cards}</div>`;
-        grid.before(feed);
+        grid.classList.add('post-grid');
+        grid.innerHTML = cards;
       }
     }
     if (section === 'work') {
