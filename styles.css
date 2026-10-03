@@ -138,3 +138,9 @@
 .home-minimal .cricket-community{padding-top:35px;padding-bottom:65px}
 .home-minimal .casual-contact{padding-top:45px;padding-bottom:50px}
 @media(max-width:650px){.home-minimal .hello-section{padding:35px 22px 50px}.home-minimal .interest-card{min-height:160px}.home-minimal .about-casual{padding:45px 22px}.home-minimal .hello-copy h1{font-size:43px}.home-minimal .notebook-card h3{font-size:20px}}
+
+/* Keep travel photographs complete and comfortable to browse. */
+.travel-page.cms-article #cms-post>.cms-cover,.travel-page .cms-article #cms-post>.cms-cover{height:auto;max-height:650px;object-fit:contain;background:#f3efe7}
+.travel-page .cms-article .cms-body figure{margin:36px 0}
+.travel-page .cms-article .cms-body figure img{display:block;width:100%;height:auto;max-height:620px;object-fit:contain;border-radius:10px;background:#f3efe7}
+.travel-page .cms-article .cms-body figcaption{font-size:14px;color:var(--muted);margin-top:10px;text-align:center}
