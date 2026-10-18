@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "id": "first-journal-test",
+    "title": "test",
+    "published": false,
+    "date": "2026-10-18",
+    "category": "Life",
+    "excerpt": "testing the feature",
+    "body": "<p></p>"
+  }
+]
